@@ -1,5 +1,12 @@
 {
 	"$schema": "https://turbo.build/schema.json",
+	"pipeline": {
+		"build":{
+			"dependsOn": [],
+			"outputs": [],
+			"filter": ["n8n"]
+		}
+	},
 	"ui": "stream",
 	"remoteCache": {
 		"enabled": true,
